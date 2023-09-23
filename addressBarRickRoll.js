@@ -1,5 +1,3 @@
-// @hoodoer
-
 var redirect = false;
 
 
