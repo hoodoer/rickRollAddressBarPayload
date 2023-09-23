@@ -70,7 +70,7 @@ async function runSkit()
 
 	for (const string in lyrics) 
 	{
-		const number = lyrics[string];
+		var number = lyrics[string];
 		var lyricString = `${string}`;
 		delay       = `${number}`;
 		window.history.replaceState(null, '', lyricString);
