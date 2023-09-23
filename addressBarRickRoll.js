@@ -67,7 +67,6 @@ var lyrics = {
 
 async function runSkit()
 {
-
 	for (const string in lyrics) 
 	{
 		var number = lyrics[string];
